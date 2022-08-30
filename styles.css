@@ -415,11 +415,7 @@ footer {
     }
     .intro-txt p {
         width: 90%;
-        margin: 1rem auto;
-    }
-
-    .intro-btn {
-        margin: 1rem  0;
+        margin: 2rem auto;
     }
 
     /* Features Section */
