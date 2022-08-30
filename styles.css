@@ -386,9 +386,6 @@ footer {
     .intro {
         grid-template-columns: 1fr;
         text-align: center;
-        width: 100vw;
-        position: relative;
-        left: -20%;
     }
     .intro-container .container {
         padding: 0 0 2.5rem 0;
