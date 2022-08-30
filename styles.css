@@ -373,14 +373,16 @@ footer {
 @media screen and (max-width: 450px) {
     /* Intro Section */
     .intro-container {
-        background: var(--Violet);
-        background-size: 100%;
+        background: url("images/bg-pattern-intro-left-desktop.svg"),
+            url("images/bg-pattern-intro-right-mobile.svg"), var(--Violet);;
+        background-position: left 0% top 40%, right 0% bottom -20%;
+        background-repeat: no-repeat;
+        background-size: 35%, 20%, 100%;
     }
 
     .intro-pattern {
-        visibility: hidden;
-        width: 0;
-        height: 0;
+        position: unset;
+        display: none;
     }
 
     .intro {
