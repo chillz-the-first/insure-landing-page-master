@@ -109,6 +109,7 @@ body {
         background-color: var(--Dark-Violet);
         background-image: url("images/bg-pattern-mobile-nav.svg");
         background-position: left 0% bottom 0%;
+        background-size: 100%;
         background-repeat: no-repeat;
         padding: 20px 0;
         position: absolute;
@@ -386,8 +387,8 @@ footer {
         grid-template-columns: 1fr;
         text-align: center;
         width: 100vw;
-        /* position: relative;
-        left: -22%; */
+        position: relative;
+        left: -20%;
     }
     .intro-container .container {
         padding: 0 0 2.5rem 0;
@@ -407,12 +408,15 @@ footer {
 
     .intro-txt {
         order: 2;
-        /* text-align: center; */
     }
     .intro-txt h1 {
         font-size: 2.3rem;
         line-height: 100%;
         margin: 1rem 0;
+    }
+    .intro-txt p {
+        width: 90%;
+        margin: 1rem auto;
     }
 
     .intro-btn {
